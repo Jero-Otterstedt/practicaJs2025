@@ -2,5 +2,5 @@
 
 let palabra = "Hola";
 let cantidad = palabra.length;
-console.log (palabra + "tiene" + cantidad + "letras")
+console.log(palabra + " tiene " + cantidad + " letras ")
 
