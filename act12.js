@@ -1,4 +1,11 @@
 //Crear un objeto literal con las siguiente propiedades: nombre, sexo biológico y edad. Agregar varios elementos a una lista. Obtener el promedio de edad, el nombre de la mujer con mayor edad, el nombre del hombre con menor edad, el promedio de edad de las mujeres.
+
+function Persona(nombre, sexo, edad) {
+    this.nombre = nombre;
+    this.sexo = sexo;
+    this.edad = edad;
+  }
+  
 let personas = [
     { nombre: "Sofia", sexo: "F", edad: 28 },
     { nombre: "Pedro", sexo: "M", edad: 30 },

@@ -1,5 +1,10 @@
 // Ingresar tres valores e indicar cual es el mayor y cual el menor.
 
+function mayorMenor(a, b, c) {
+     const mayor = Math.max(a, b, c);
+     const menor = Math.min(a, b, c);
+     console.log("El mayor es " + mayor + " y el menor es " + menor);
+}
 let n1 = 8;
 let n2 = 3;
 let n3 = 6;
